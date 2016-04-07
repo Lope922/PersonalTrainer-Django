@@ -1,0 +1,24 @@
+Create the main webpage with greetings and login session
+
+Create the personal trainers views
+    - Personal Trainer views should consist of the their clients
+    - Exerciese they can assign to clients
+    - their goals
+    - their progress
+    - Maybe suggested menus
+
+Create the customer views
+    - They should have access to some form of a schedule
+    - they should also have access to a list of exercises
+    - they should also have access to their progress represented in some form.
+    -
+
+Decide what each person can see. and how to setup the pages for them to see.
+
+Pages
+
+    Welcome / Login already have a template
+
+    Personal Trainer page has a view for selecting their clients from a list. ( this will most likely use
+    the update method to reload the same page with the current users conditions.
+

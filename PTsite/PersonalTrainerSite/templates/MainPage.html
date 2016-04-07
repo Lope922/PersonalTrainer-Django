@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome </title>
+</head>
+<body>
+
+<style>
+
+    body { background-color:  #205067;
+        }
+    h1 {
+        font-family: "Helvetica Neue";
+        color: White;
+        text-align: center;
+        }
+    p
+    {
+        font-family: "Helvetica Neue";
+        color : white;
+        padding: 20px 20px 20px 20px;
+        border: solid;
+        border-color: white;
+        text-align: center;
+
+
+    }
+    .button {
+        background-color: #4CAF50;
+        border: none;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display:inline-block;
+        font-size: 16px;
+        margin: auto;
+
+
+
+
+    }
+
+</style>
+
+<h1> About us </h1>
+<p>
+    We are committed to helping you achieve your personal fitness and weight loss goals. Sign up today to meet our
+team of personal trainers that can assist you in achieving your fitness goals </p>
+
+<!-- csrf_token prevents cross site request forgery but isn't properly working  -->
+
+<form method="POST" class="post-form"> {% csrf_token %} {{ form.as_p }}
+
+<button type="submit" class="button" ><a href="{ % url 'CreateUser' % }"></a> Login </button> <button class="button"> Tour Site </button></form>
+</body>
+</html>

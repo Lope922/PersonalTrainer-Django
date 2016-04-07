@@ -1,0 +1,28 @@
+h1 {
+    font-family: "Helvetica Neue";
+    font-size: 22px;
+    font-color: white;
+}
+body {
+    background: #205067;
+
+}
+p{
+     font-family: "Helvetica Neue";
+        color : white;
+        padding: 20px 20px 20px 20px;
+        border: solid;
+        border-color: white;
+        text-align: center;
+
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color:black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin:auto;
+
+}

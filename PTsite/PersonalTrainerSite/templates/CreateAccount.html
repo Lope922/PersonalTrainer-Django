@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<html>
+    <head>
+        <title>Create an Account</title>
+    </head>
+<body>
+<h1>Enter your information below </h1>
+<form method="POST" class="create-user-form">{% csrf_token %}
+    <label>UserName</label>
+    <input class="username" type="text"> <br>
+    <label>Password</label>
+    <input class="password" type="password"> <br>
+    <label>E-mail</label>
+    <input class="email" type="email"><br>
+
+    <button class="button" type="Submit">Submit</button>
+    <button class="button" type="reset">Reset</button>
+    <button class="button" type="button">Go Back</button>
+
+</form>
+</body>
+
+</html>
