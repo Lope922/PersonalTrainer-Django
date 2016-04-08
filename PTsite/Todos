@@ -1,8 +1,17 @@
-Create the main webpage with greetings and login session
+Major TODOS get the Trainer ability to view their workouts working,  as well as their ability to assign workouts to clients.
+Give Trainers and users the ability to schedule appointments
 
+also give clients the ability to schedule the appointments with their personal trainers. Clients should be able to see
+what their trainers have available for scheduling , but not modify their trainers schedule.
+
+Also send e-mail if i can't find out how to map button clicks to url redirects. Create gitignore and push code in the morning.
+
+
+-other stuff ______________________________
 Create the personal trainers views
     - Personal Trainer views should consist of the their clients
-    - Exerciese they can assign to clients
+    - Exercise they can assign to clients
+    - Dates they can schedule their appointments
     - their goals
     - their progress
     - Maybe suggested menus
@@ -16,8 +25,6 @@ Create the customer views
 Decide what each person can see. and how to setup the pages for them to see.
 
 Pages
-
-    Welcome / Login already have a template
 
     Personal Trainer page has a view for selecting their clients from a list. ( this will most likely use
     the update method to reload the same page with the current users conditions.

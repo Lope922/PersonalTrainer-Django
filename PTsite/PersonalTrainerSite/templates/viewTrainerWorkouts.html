@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>42</title>
+    <title>Workouts in your library </title>
+    <!-- testing out the style sheet in this form if i decide to go with a bootstap this will need to be changed -->
+    <link rel="stylesheet" href="css/default-style.css">
+
 </head>
 <body>
+<h1> Workouts in your library </h1>
+<form>
+<div class="container">
+    <combobox> Clients name  {{ Client }}</combobox>
+
+
+    </div>
+        <ul>
+            {{ workouts }}
+        </ul>
+    </container></div>
+    <button> Submit </button>
+    <button>Reset</button>
+</form>
+<!-- for workout in list assign workout to client
+    This can be a two step process , select a name from a dropdown list
+    once a name is selected then display the list of workouts stored in the Personal Trainers
+    library of workouts
+ -->
 
 </body>
 </html>

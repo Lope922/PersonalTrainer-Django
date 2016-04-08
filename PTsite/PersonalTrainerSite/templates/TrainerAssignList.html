@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your mission </title>
+</head>
+<body>
+<h2> Your mission... should you choose to accept it </h2>
+<div>
+    <p>is to do these exercises</p>
+    { % for Trainer.workout_desc in Trainer % }
+<ol> {% Trainer.workout_name %} </ol>
+</div>
+</body>
+</html>

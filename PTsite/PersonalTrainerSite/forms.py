@@ -2,6 +2,7 @@ from django.contrib.auth.models import User
 from django import forms
 
 
+# this uses django's built in user functionality to build form based on define fields
 class UserForm(forms.ModelForm):
     class Meta:
         model = User
