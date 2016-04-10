@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trainer Client Page</title>
+<!-- This seems to be the client page that has been duplicated. This still may be needed for trying to list the PT's clients only no workouts -->
+</head>
+<body>
+<h1> Displaying trainer clients </h1>
+<div>
+    {% block content %}
+        {% for Client in Clients %}
+            <p>{{ client|linebreaks }}</p>
+                <ol>{{ client |linebreaks }}</ol>
+        {% endfor %}
+    {% endblock %}
+    <p>client list should appear above here</p>
+
+
+</div>
+<h2>Or just print their first name</h2>
+</body>
+
+</html>

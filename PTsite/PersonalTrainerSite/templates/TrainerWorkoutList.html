@@ -6,7 +6,8 @@
 </head>
 <body>
 <h1>Trainers Create your workouts here </h1>
-<form>
+<form method="POST" >
+    {% csrf_token %}
     <label>Name your workout</label>
     <input class="workout_name" type="text"> <br>
     <label>Describe the workout briefly for your client (limit 250 characters)</label> <br>

@@ -5,12 +5,14 @@
     <title>Clients</title>
 </head>
 <body>
-<h1> Here are the clients for {{admin}}</h1>
+<h1> Here are the clients for {{User.auth.name}}</h1>
 <p>
+    <li>{{for str(client) in client }}</li>
+</p>
 <div class="container">
     <input type="checkbox" /> {Trainer.workout name} <br/>
-    <li>{{for Customer in Customers}}</li>
+
     </div>
-</p>
+
 </body>
 </html>
